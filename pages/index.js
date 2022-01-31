@@ -12,7 +12,8 @@ export default function Home({ posts }) {
         <meta name="keywords" content="web development, programming" />
       </Head>
       <main className={styles.container}>
-        <h1>{posts.length}</h1>
+        <h2>This is home page</h2>
+        {/* <h1>{posts.length}</h1>
         {
           posts.map((post) => (
             <div key={post.id} className={styles.card}>
@@ -24,18 +25,18 @@ export default function Home({ posts }) {
               </Link>
             </div>
           ))
-        }
+        } */}
       </main>
 
     </>
   )
 }
 
-export const getStaticProps = async () => {
-  const res = await fetch('https://jsonplaceholder.typicode.com/users')
-  const data = await res.json()
+// export const getStaticProps = async () => {
+//   const res = await fetch('https://jsonplaceholder.typicode.com/users')
+//   const data = await res.json(JSON.stringify(data))
 
-  return {
-    props: { posts: data }
-  }
-}
+//   return {
+//     props: { posts: data }
+//   }
+// }
