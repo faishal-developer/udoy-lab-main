@@ -14,7 +14,6 @@ export default function Home({ posts }) {
       <main className={styles.container}>
         <h2>This is Compact blog  home page</h2>
         <h3>More update comming soon......</h3>
-        <p>lorem12 </p>
       </main>
 
     </>
