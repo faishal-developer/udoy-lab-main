@@ -12,7 +12,7 @@ export default function Home({ posts }) {
         <meta name="keywords" content="web development, programming" />
       </Head>
       <main className={styles.container}>
-        <h2>This is blog  home page</h2>
+        <h2>This is Compact blog  home page</h2>
         <h3>More update comming soon......</h3>
         {/* <h1>{posts.length}</h1>
         {
