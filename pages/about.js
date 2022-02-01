@@ -5,9 +5,9 @@ const about = () => {
     return (
         <div>
             <Head>
-                <title>Next | About</title>
+                <title>blog | About</title>
             </Head>
-            <h3>Explore about Next js</h3>
+            <h3>About page of this blog</h3>
         </div>
     );
 };
