@@ -14,19 +14,7 @@ export default function Home({ posts }) {
       <main className={styles.container}>
         <h2>This is Compact blog  home page</h2>
         <h3>More update comming soon......</h3>
-        {/* <h1>{posts.length}</h1>
-        {
-          posts.map((post) => (
-            <div key={post.id} className={styles.card}>
-              <h2>{post.name}</h2>
-              <h4> Email :{post.email}</h4>
-              <h4> Website :{post.website}</h4>
-              <Link key={post.id} href={`/user/${post.id}`}>
-                <button>More Details</button>
-              </Link>
-            </div>
-          ))
-        } */}
+        <p>lorem12 </p>
       </main>
 
     </>
