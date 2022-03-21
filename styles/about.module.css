@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Rubik:wght@400;500;600;700;800&display=swap');
+
+.BannerHeading{
+    margin-top: 0;
+    letter-spacing: 3px;
+}
+.sliderHeading{
+    font-size: 40px;
+    font-size:4vw;
+    margin-top: 0;
+}
+.sliderPara{
+    max-width:50vw ;
+    font-size: 20px;
+}
+.sliderImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.WorkSubHead{
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    color:#454ADE;
+}
+.WorkHead{
+    color:#FB3640;
+    font-size: 4vw;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 900px){
+    
+}
+@media only screen and (max-width: 768px){
+    .sliderHeading,.WorkHead{
+        font-size:5vw;
+    }
+    .sliderPara{
+        font-size: 16px;
+        max-width: 80vw;
+    }
+}
+@media only screen and (max-width: 500px){
+
+}
