@@ -1,12 +1,14 @@
 {
   "name": "explore-next",
+  "main": "server.js",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "firebase deploy --only functions,hosting"
   },
   "dependencies": {
     "@ciar4n/izmir": "^1.0.1",
@@ -20,6 +22,8 @@
     "@fortawesome/react-fontawesome": "^0.1.17",
     "@mui/material": "^5.4.1",
     "babel-plugin-macros": "^3.1.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.19.0",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -29,7 +33,12 @@
     "react-tabs": "^3.2.3"
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "cross-env": "^7.0.3",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.0.1"
+    "eslint-config-next": "11.0.1",
+    "rimraf": "^3.0.2"
   }
 }
