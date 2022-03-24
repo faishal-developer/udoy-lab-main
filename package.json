@@ -1,14 +1,12 @@
 {
   "name": "explore-next",
-  "main": "server.js",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "firebase deploy --only functions,hosting"
+    "lint": "next lint"
   },
   "dependencies": {
     "@ciar4n/izmir": "^1.0.1",
