@@ -8,13 +8,13 @@ import { Box } from '@mui/system';
 
 import TemporaryDrawer from '../home/Drawer';
 
-const Navbar = () => {
+const Navbar = (props) => {
 
     let navItem = [['Home', '/'], ['About us', 'about'], ['Contact', 'contact'], ['Projects', 'projects']]
     return (
         <Container maxWidth="lg" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', }}>
-            <figure style={{ margin: 0 }}>
-                <Image width='80' height='50' src={logo} alt="logo"/>
+            <figure style={{ margin: 0,visibility:props.admin?'hidden':'visible' }}>
+                <Image width='80' priority={true} height='50' src={logo} alt="logo"/>
             </figure>
             <Box sx={{ display: { xs: 'none', md: 'block' } }}>
                 {

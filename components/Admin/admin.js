@@ -3,7 +3,7 @@ import MiniDrawer from './Drawer';
 
 const Admin = () => {
     return (
-        <div>
+        <div style={{ background:'#EDFDFE'}}>
             <MiniDrawer/>
         </div>
     );
